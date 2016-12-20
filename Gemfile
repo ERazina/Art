@@ -26,6 +26,18 @@ gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
+gem "haml-rails", "~> 0.9"
+
+gem 'jquery-ui-rails'
+gem 'rails-asset-jqueryui'
+gem 'bootstrap-sass', '3.3.6' # Installed 3.3.6
+
+# Icons fonts
+gem 'font-awesome-sass' #, '~> 4.6.2'
+gem 'font-awesome-rails', '~> 4.6', '>= 4.6.3.1'
+# Pagination
+# gem 'will_paginate'
+gem 'kaminari'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
@@ -33,6 +45,9 @@ gem 'jbuilder', '~> 2.5'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
+  # Лучше отображает ошибки
+  gem "better_errors"
+  gem "binding_of_caller"
 end
 
 group :development do
@@ -46,3 +61,4 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
