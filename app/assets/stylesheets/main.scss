@@ -1,3 +1,43 @@
 // Place all the styles related to the main controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+#header {
+  background-color: green;
+  height: 200px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  &:visited {
+    color: white;
+  }
+  &:hover {
+    color: orange;
+  }
+}
+
+body {
+  margin: 0;
+}
+
+h2 {
+  text-align: center;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: green;
+}
+
