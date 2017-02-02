@@ -9,7 +9,7 @@ Image.delete_all
 Image.reset_pk_sequence
 Image.create([
 
-                 {name: 'Da Vinchi, Первое изображение', file: '1.jpg', theme_id: 1},
+                 {name: 'Da Vinchi, Первое изображение', file: '10.jpg', theme_id: 1},
                  {name: 'Да Винчи, Второе изображение', file: '2.jpg', theme_id: 1},
                  {name: 'Да Винчи, Третье изображение', file: '3.jpg', theme_id: 1},
                  {name: 'Да Винчи, Четвертое изображение', file: '4.jpg', theme_id: 1},

@@ -2,20 +2,25 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 #header {
-  background-color: green;
+  background-color: white;
   height: 200px;
 }
 
 h1 {
-  color: white;
+  color: darkred;
   text-align: center;
-  margin-top: 25px;
+  margin-top: 0;
   margin-bottom: 25px;
+  padding-top: 50px;
+  font-size: 50px;
 }
 
 a {
   color: white;
   text-decoration: none;
+  font-size: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
   &:visited {
     color: white;
   }
@@ -30,14 +35,31 @@ body {
 
 h2 {
   text-align: center;
+  color: grey;
+  font-size: 22px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 #footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  margin: 0;
-  padding: 0;
-  background-color: green;
+  background-color: dimgrey;
 }
 
+.center {
+  text-align: center;
+}
+
+.left{
+  width: 70%;
+  display: inline;
+  margin: 2%;
+  background-color: whitesmoke;
+}
+
+.right{
+  width: 25%;
+  display: inline;
+}
